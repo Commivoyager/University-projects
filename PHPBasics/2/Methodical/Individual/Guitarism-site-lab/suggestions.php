@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Your suggestions</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="img/logo2W.png" style="max-height: 80px; padding-top: 10px;">
+            <h1>Guitarism</h1>
+        </a>
+        <nav class="navigation">
+            <a href="guitarists.html">Guitarists</a>
+            <a href="guitars.html">Guitars</a>
+            <a href="index.html">Main</a>   
+            <a href="sitemap.html">Site map</a>
+            <a href="suggestions.html">Your suggestions</a> 
+        </nav>
+    </header>
+    <main>
+        <article id="suggest-article">
+            <h2 class="heading2 text-backgrnd" style="width:60%">Your suggestions</h2>
+            <section id="suggestion-block">
+                <p class="text-backgrnd" style="width: 100%;">
+                    You can share information here about your favorite guitarists 
+                    or guitar models. You can also supplement existing articles if you know 
+                    interesting stories or facts from the lives of these musicians. Also 
+                    post your thoughts and experiences about different guitars. After the 
+                    moderators check it, your valuable experience and interesting knowledge 
+                    can be published and immortalized on the pages of this wonderful guitar portal!
+                </p>
+                <section class="text-backgrnd" style="width: 100%;">
+                    <form id="suggest-form" method="POST">
+                        <label style="height: 100%; width: 100%; text-align: center;">
+                            Your suggestion
+                            <textarea  id="suggest-textarea" name="input_text" placeholder="Enter text here..."></textarea>
+                        </label>
+                        <button id="suggest-send-btn">Send</button>
+                    </form>
+                </section>
+                <?php include'text_conversion.php'?>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <div class="logo">
+            <img src="img/logo2W.png" style="max-height: 80px;">
+            <h2>Guitarism contacts</h2>
+        </div>
+        <div class="footer-contacts">
+            <div>
+                <a href="https://www.gmail.com/"><img src="img/mail_icon.png" class="footer-icon"></a>
+                <p>Email</p>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/"><img src="img/facebook_icon.png" class="footer-icon"></a>
+                <p>Facebook</p>
+            </div>
+            <div>
+                <a href="http://x.com/"><img src="img/twitter_icon.png" class="footer-icon"></a>
+                <p>Twitter</p>
+            </div>
+            <div>
+                <a href="https://instagram.com/"><img src="img/inst_icon.png" class="footer-icon"></a>
+                <p>Instagram</p>
+            </div>              
+        </div>
+    </footer>
+</body>
+</html>

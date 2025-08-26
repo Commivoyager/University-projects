@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    margin-block:0;
+}
+
+body{
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    color: rgb(164, 205, 235);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 90px;
+    color: rgb(164, 205, 235);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(164, 205, 235);
+    font-size: 30px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+main{
+    margin: 30px 60px 0px;
+}
+
+.logo{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    gap: 10px;
+}
+
+.navigation{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.text-backgrnd{
+    font-size: 20px;
+    border-radius: 50px;
+    background-color:rgb(53, 55, 56, 0.90);
+    padding: 25px 25px; 
+    margin-bottom: 30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    font-size: 30px;
+    border-radius: 50px 50px 0px  0px;
+    background-color:rgb(53, 55, 56, 0.90);
+    padding: 10px 25px; 
+    margin: 15px 60px 0px;
+}
+
+.footer-contacts{
+    display: flex;
+    flex-direction: row;
+    text-align: center;    
+    gap: 50px;
+    font-size: 10px; 
+    padding-top: 0px;
+    margin-left: 20px;
+}
+
+.footer-icon{
+    max-height: 50px;
+}
+
+.heading2{
+    font-size: 40px;
+    text-align: center;
+    padding: 15px 25px;
+}
+
+.guitarists-info{
+    font-size: 20px;
+    border-radius: 50px;
+    background-color:rgb(53, 55, 56, 0.90);
+    padding: 25px 45px; 
+    margin-bottom: 30px;
+    overflow: hidden;     
+}
+
+.guitarists-info img{
+    width: 600px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.guitars-row-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.guitars-info{
+    font-size: 20px;
+    border-radius: 50px;
+    background-color:rgb(53, 55, 56, 0.90);
+    padding: 15px 25px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex: 1 1 0;
+    max-width: 35%;
+}
+
+.main-guitar-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.guitars-info img{
+    width: 85%;
+    height: width;
+    margin: 10px 0px 15px;
+}    
+
+#map-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-links a{
+    font-size: 40px;
+}
+
+#suggest-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#suggestion-block{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+}
+
+#suggest-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#suggest-textarea{
+    margin: 5px 0px;
+    text-align: start;
+    resize: none;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+}
+
+#suggest-send-btn{
+    font-size: 20px;
+    width: 150px;
+}

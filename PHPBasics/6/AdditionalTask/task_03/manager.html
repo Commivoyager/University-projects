@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {message}
+    <form method="POST" enctype="multipart/form-data">
+        <label>
+            Choose file
+            <input type="file" name="filename" value="Choose">
+
+        </label>
+        <input type="submit" value="Upload"><br>
+
+        {info}
+        <!--<?php
+            include('../FileManager.php');
+            $manager = new FileManager;
+            echo $manager->get_content();
+        ?>-->
+    </form>
+    <br><br>
+    <form action="index.php">
+        <input type="submit" value="Выйти из аккаунта">
+    </form>
+</body>
+</html>

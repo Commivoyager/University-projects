@@ -1,0 +1,48 @@
+@media(max-width:1400px){
+    .navigation{
+        row-gap: 0px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        line-height: 10px;
+        width: 700px; 
+    }
+}
+
+@media(max-width: 970px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        color: black;
+    }
+    .navigation{
+        width: 100%;
+        margin-left: 0px;    
+        padding-left: 20px;
+        margin-top: 0px;     
+        line-height: 30px;
+        justify-content: center;
+    }
+    .guitarists-info img{
+        float: none;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .guitarists-info{
+        text-align: center;
+    }
+    .guitars-row-block{
+        justify-content: center;
+        gap: 20px;
+    }
+    .guitars-info{
+        font-size: 15px;
+        max-width: 45%;
+    }
+}
+
+@media(max-width:1200px){
+    .footer-contacts{
+        gap: 10px;
+    }
+}
