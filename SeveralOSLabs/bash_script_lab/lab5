@@ -1,0 +1,40 @@
+Написать скрипт, находящий в заданном каталоге и всех его подкаталогах все файлы заданного размера. Диапазон (мин.- мах.) размеров файлов задаётся пользователем в качестве первого и второго аргумента командной строки. Скрипт выводит результаты поиска в файл (третий аргумент командной строки) в виде: полный путь, имя файла, его размер.  На консоль выводится общее число просмотренных файлов.
+
+Скрипт:
+#!/bin/bash
+cd
+find $1 \( -size +$2c -and -size -$3c \) -type f -exec basename {} > $4 \; -exec echo -n "	" > $4 \; -exec dirname {} > $4 \; -exec echo -n "	" > $4 \; -exec stat -c %s {} > $4 \;
+
+
+
+Выводимый в заданный файл результат:
+info.txt
+	Desktop/MyPrograms/lab5/Attempts/01
+	12
+2
+	Desktop/MyPrograms/lab5/Attempts/01
+	49
+2info
+	Desktop/MyPrograms/lab5/Attempts/01
+	22
+01
+	Desktop/MyPrograms/lab5/Attempts/dir of main
+	28
+del3
+	Desktop/MyPrograms/lab5/Attempts/checkSize
+	11
+del5
+	Desktop/MyPrograms/lab5/Attempts/checkSize
+	9
+1.dir
+	Desktop/MyPrograms/lab5/Attempts/02
+	10
+1
+	Desktop/MyPrograms/lab5/Attempts/03
+	19
+01
+	Desktop/MyPrograms/lab5/Attempts/str
+	42
+Untitled Document 1
+	Desktop/MyPrograms/lab5/Attempts/str
+	6
