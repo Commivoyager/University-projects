@@ -1,0 +1,1 @@
+Several implemented encryption and decryption algorithms (permutation cipher, stream encryption, asymmetric public key algorithm)
