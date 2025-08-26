@@ -1,0 +1,1 @@
+Calculation of Halstead Metrics using the Flex lexical analyzer generator, based on a simplified grammar, followed by result analysis
