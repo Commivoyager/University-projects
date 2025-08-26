@@ -1,0 +1,8 @@
+17:41:26.284: Assemply "ConsoleApp1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+17:41:26.298: Extracted types:
+17:41:26.300: Company.ProjectA.PublicClassA
+17:41:26.300: Company.ProjectA.PublicClassA2
+17:41:26.300: Company.ProjectA.PublicClassA3
+17:41:26.300: Company.ProjectB.PublicClassB
+17:41:26.300: ConsoleApp1.MyClass
+END OF LOG BATCH

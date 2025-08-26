@@ -1,0 +1,69 @@
+04:25:56.460: Assemply "AssemblyInfo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+END OF LOG BATCH
+04:37:24.573: Exception during loading assembly information: Bad IL format. The format of the file 'D:\main\study\current\СПП\ЛР3\assembly-log_buffer-wait_all\DemoApp\TasksDemoData\Tasks\AssemblyInfo\AssemblyInfo.exe' is invalid.
+END OF LOG BATCH
+04:37:59.043: Exception during loading assembly information: Bad IL format. The format of the file 'D:\main\study\current\СПП\ЛР3\assembly-log_buffer-wait_all\DemoApp\TasksDemoData\Tasks\AssemblyInfo\AssemblyInfo.exe' is invalid.
+END OF LOG BATCH
+04:41:18.673: Exception during loading assembly information: Bad IL format. The format of the file 'D:\main\study\current\СПП\ЛР3\assembly-log_buffer-wait_all\DemoApp\TasksDemoData\Tasks\AssemblyInfo\apphost.exe' is invalid.
+END OF LOG BATCH
+04:42:40.383: Exception during loading assembly information: Bad IL format. The format of the file 'D:\main\study\current\СПП\ЛР3\assembly-log_buffer-wait_all\DemoApp\TasksDemoData\Tasks\AssemblyInfo\ConsoleApp1.exe' is invalid.
+END OF LOG BATCH
+04:43:13.048: Assemply "AssemblyInfo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+END OF LOG BATCH
+04:44:54.299: Exception during loading assembly information: Bad IL format. The format of the file 'D:\main\study\current\СПП\ЛР3\assembly-log_buffer-wait_all\DemoApp\TasksDemoData\Tasks\AssemblyInfo\ConsoleApp1.exe' is invalid.
+END OF LOG BATCH
+05:37:21.128: Exception during loading assembly information: Bad IL format. The format of the file 'D:\main\study\current\СПП\ЛР3\assembly-log_buffer-wait_all\DemoApp\TasksDemoData\Tasks\AssemblyInfo\ConsoleApp1.exe' is invalid.
+END OF LOG BATCH
+05:38:02.601: Assemply "AssemblyInfo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+05:38:02.611: Extracted types:
+END OF LOG BATCH
+05:41:35.036: Assemply "ConsoleApp1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+05:41:35.046: Extracted types:
+05:41:35.047: ConsoleApp1.MyClass
+END OF LOG BATCH
+05:44:43.292: Assemply "ConsoleApp1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+05:44:43.301: Extracted types:
+05:44:43.303: Company.ProjectA.PublicClassA
+05:44:43.303: Company.ProjectA.PublicClassA2
+05:44:43.303: Company.ProjectA.PublicClassA3
+05:44:43.303: Company.ProjectB.PublicClassB
+05:44:43.303: ConsoleApp1.MyClass
+END OF LOG BATCH
+05:46:58.447: Assemply "AssemblyInfo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+05:46:58.457: Extracted types:
+END OF LOG BATCH
+05:48:18.582: Assemply "AssemblyInfo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+05:48:18.591: Extracted types:
+END OF LOG BATCH
+05:49:00.859: Assemply "ConsoleApp1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+05:49:00.871: Extracted types:
+05:49:00.872: Company.ProjectA.PublicClassA
+05:49:00.872: Company.ProjectA.PublicClassA2
+05:49:00.872: Company.ProjectA.PublicClassA3
+05:49:00.872: Company.ProjectB.PublicClassB
+05:49:00.872: ConsoleApp1.MyClass
+END OF LOG BATCH
+05:50:37.155: Assemply "ConsoleApp1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+05:50:37.165: Extracted types:
+05:50:37.166: Company.ProjectA.PublicClassA
+05:50:37.166: Company.ProjectA.PublicClassA2
+05:50:37.166: Company.ProjectA.PublicClassA3
+05:50:37.166: Company.ProjectB.PublicClassB
+05:50:37.166: ConsoleApp1.MyClass
+END OF LOG BATCH
+05:51:10.568: Assemply "AssemblyInfo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+05:51:10.578: Extracted types:
+05:51:10.579: Program
+END OF LOG BATCH
+05:55:12.800: Assemply "AssemblyInfo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+05:55:12.810: Extracted types:
+05:55:12.811: Program
+END OF LOG BATCH
+05:55:43.883: Assemply "ConsoleApp1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+05:55:43.892: Extracted types:
+05:55:43.894: Company.ProjectA.PublicClassA
+05:55:43.894: Company.ProjectA.PublicClassA2
+05:55:43.894: Company.ProjectA.PublicClassA3
+05:55:43.894: Company.ProjectB.PublicClassB
+05:55:43.894: ConsoleApp1.MyClass
+END OF LOG BATCH

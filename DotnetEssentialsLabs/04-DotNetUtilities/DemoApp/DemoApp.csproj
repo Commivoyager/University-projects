@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Concurrency\Concurrency.csproj" />
+    <ProjectReference Include="..\DynamicCollections\DynamicCollections.csproj" />
+    <ProjectReference Include="..\LogBuffer\LogBuffer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="TasksDemoData\Tasks\LogBuffer\" />
+  </ItemGroup>
+
+</Project>

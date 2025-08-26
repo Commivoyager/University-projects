@@ -1,0 +1,44 @@
+
+
+// check synchronized
+
+
+// main function
+{
+        List<String> l1 = new ArrayList<>(5);
+        for(int i = 0; i < 5; i++){
+            l1.add(i + " - string");
+        }
+
+        List<String> l2 = new ArrayList<>(5);
+        Thread thr1 = new Thread(()->Main.func(1, l1));
+        Thread thr2 = new Thread(()->Main.func2(2, l1));
+        System.out.println("\nBefore threads\n");
+        thr1.start();
+        System.out.println("\nBetween thrreads\n");
+        thr2.start();
+        System.out.println("\nAfter threads\n");
+}
+
+    static void func(int thrNum, Object lock){
+        synchronized(lock){
+            System.out.println("Started " + thrNum + " thread: " + LocalDateTime.now());
+            try{
+                Thread.sleep(5000);
+            }catch(InterruptedException e){ }
+            System.out.println("Ended " + thrNum + " thread: " + LocalDateTime.now());
+        }
+    }
+
+    static void func2(int thrNum, List lock){
+        System.out.println("Started " + thrNum + " thread: " + LocalDateTime.now());
+        try{
+            Thread.sleep(2000);
+        }catch(InterruptedException e) {}
+        System.out.println(thrNum + " thread after 2000 ms sleep: " + LocalDateTime.now());
+        lock.remove(1);
+        for(int i = 0; i < lock.size(); i++){
+            System.out.println(i + " element: " + lock.get(i));
+        }
+        System.out.println("Ended " + thrNum + " thread: " + LocalDateTime.now());
+    }

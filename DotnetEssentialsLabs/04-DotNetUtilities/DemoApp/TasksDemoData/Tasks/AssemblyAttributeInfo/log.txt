@@ -1,0 +1,8 @@
+﻿17:49:12.144: Assembly "DemoAssembly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" was loaded
+17:49:12.158: Extracted types (all classes with ExportClass attribute):
+17:49:12.158: ConsoleApp1.MyClass
+17:49:12.158: DemoAssemblyB.ExportedClassB
+17:49:12.158: DemoAssemblyB.ExportedClassBChild
+17:49:12.158: DemoAssembly2.ExportedClassA
+17:49:12.158: DemoAssembly.ExportedClassA
+END OF LOG BATCH
