@@ -1,0 +1,1 @@
+A program that displays file characteristics from a specified directory and supports multi-process sorting
