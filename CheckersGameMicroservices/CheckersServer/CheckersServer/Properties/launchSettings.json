@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CheckersServer": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

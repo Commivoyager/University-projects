@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "IdentService": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

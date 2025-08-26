@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GamesInstLogger": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+networks:
+  backend:
+    driver: bridge
+
+services:
+
+  rabbit:
+    hostname: rabbit
+    image: rabbitmq:4.0-management
+    container_name: rabbitmq
+    networks:
+      - backend
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+
+  gamedb:
+    container_name: game-db
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+      - 5556:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=password@12345#
+    networks:
+      - backend
+
+  checkersserver:
+    container_name: game-server
+    image: ${DOCKER_REGISTRY-}checkersserver
+    build:
+      context: .
+      dockerfile: CheckersServer/Dockerfile
+    networks:
+      - backend
+    ports:
+      - 5555:5555
+    depends_on:
+      - rabbit
+
+  identservice:
+    container_name: ident-service
+    image: ${DOCKER_REGISTRY-}identdervice
+    build:
+      context: .
+      dockerfile: IdentService/Dockerfile
+    networks:
+      - backend
+    depends_on:
+      - rabbit
+
+
+  gamesinstlogger:
+    container_name: games-inst-logger
+    image: ${DOCKER_REGISTRY-}gamesinstlogger
+    build:
+      context: .
+      dockerfile: GamesInstLogger/Dockerfile
+    networks:
+      - backend
+
+  movelogger:
+    container_name: game-move-logger
+    image: ${DOCKER_REGISTRY-}movelogger
+    build:
+      context: .
+      dockerfile: MoveLogger/Dockerfile
+    networks:
+      - backend
+    depends_on:
+      - gamedb
+    environment:
+      - DB_HOST=gamedb
+      - DB_NAME=GameDB
+      - DB_SA_PASSWORD=password@12345#
+

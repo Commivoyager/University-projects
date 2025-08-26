@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkers", "Checkers.csproj", "{341ACAB3-D5D1-4122-B420-CC991BCA9145}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{341ACAB3-D5D1-4122-B420-CC991BCA9145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341ACAB3-D5D1-4122-B420-CC991BCA9145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341ACAB3-D5D1-4122-B420-CC991BCA9145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341ACAB3-D5D1-4122-B420-CC991BCA9145}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD4EE8CF-6BB2-4682-80C0-AA3379899016}
+	EndGlobalSection
+EndGlobal

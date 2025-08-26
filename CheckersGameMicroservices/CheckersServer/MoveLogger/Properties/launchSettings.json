@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MoveLogger": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
