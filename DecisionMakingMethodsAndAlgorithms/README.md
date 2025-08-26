@@ -1,0 +1,1 @@
+The course Methods and Algorithms for Decision-Making: pattern recognition, object classification, and more
