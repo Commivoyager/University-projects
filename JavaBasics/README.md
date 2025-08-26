@@ -1,0 +1,1 @@
+Completed Java tasks for basic knowledge – part of a course where pre-made tests verified the correctness of the solutions.
