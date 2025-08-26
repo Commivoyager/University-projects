@@ -1,0 +1,1 @@
+Most of the projects are simple exercises for learning the basics of programming, along with a couple of larger GUI-based projects
